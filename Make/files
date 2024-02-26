@@ -1,0 +1,8 @@
+
+GAMGSolverNew.C
+GAMGSolverNewAgglomerateMatrix.C
+GAMGSolverNewInterpolate.C
+GAMGSolverNewScale.C
+GAMGSolverNewSolve.C
+
+LIB = $(FOAM_USER_LIBBIN)/libGAMGFcycleExtension
