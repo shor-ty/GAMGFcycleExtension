@@ -19,7 +19,9 @@ The library also extends the GAMG library in a more modular way offering a bette
 > wmake libso
 5. Add the following line to the __controlDict__ of your simulation case
 > libs (GAMGFcycleExtension);
-7. Done
+6. Go to your __fvSolution__ file and change the solver name from GAMG to GAMGExtension
+7. Add the new keyword `cycleMode  Vcycle;` or `cycleMode Fcycle;` (VCycle is default)
+8. Done
 
 ## Credit
 This repository was re-build and modified by Tobias Holzmann. The base idea however, came from Minhao Xu, see gitlab issue #2054.
